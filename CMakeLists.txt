@@ -46,6 +46,13 @@ endif()
 
 project(ase-json VERSION ${ASE_JSON_VERSION} LANGUAGES CXX)
 
+# Generate version.hpp from template (SSOT)
+configure_file(
+    "${CMAKE_CURRENT_SOURCE_DIR}/include/ase/json/version.hpp.in"
+    "${CMAKE_CURRENT_BINARY_DIR}/include/ase/json/version.hpp"
+    @ONLY
+)
+
 # ==============================================================================
 # BUILD CONFIGURATION
 # ==============================================================================
