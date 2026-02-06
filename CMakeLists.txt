@@ -65,7 +65,13 @@ message(STATUS "Configuring ${PROJECT_NAME} v${PROJECT_VERSION}")
 HEADER-ONLY LIBRARY
 JSON utilities wrapping nlohmann/json for ASE conventions.
 ]]
-add_library(${PROJECT_NAME} INTERFACE)
+add_library(${PROJECT_NAME} INTERFACE
+    #[[
+    CORE
+    Main entry point and type re-exports (Json, JsonArray, JsonObject).
+    ]]
+    include/ase/json/json.hpp
+)
 add_library(ase::json ALIAS ${PROJECT_NAME})
 
 target_include_directories(${PROJECT_NAME}
