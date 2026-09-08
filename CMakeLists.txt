@@ -11,8 +11,8 @@ ASE FOUNDATION BUILD CONFIGURATION
 @module      ase-json
 @layer       0 (Foundation)
 @created     2025-12-29
-@modified    2026-01-30
-@version     00.00.02.00002 [seed]
+@modified    2026-09-08
+@version     00.00.12.00012 [poc]
 
 CMAKE MODULE COMPLIANCE
 
