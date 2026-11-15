@@ -34,7 +34,11 @@
  * @category    persistence/serialization
  * @created     2024-12-29
  * @modified    2026-08-20
- * @version     1.0.0
+ * @version     00.00.13.00013 [poc]
+ *
+ * Copyright (c) Jan Ohlmann. All rights reserved.
+ * Licensed to ANTARES SIMULACAO LTDA. Use is governed by LICENSE.md and PJV.md in this repository.
+ * SPDX-License-Identifier: LicenseRef-ASE-LIC
  *
  * CORE INFRASTRUCTURE COMPLIANCE
  *
