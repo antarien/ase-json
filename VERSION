@@ -43,10 +43,10 @@
 #   stable = Production ready (set manually)
 #
 # ==============================================================================
-ASE_JSON=00.00.13.00013
+ASE_JSON=00.00.16.00016
 ASE_JSON_NAME=JSON Utilities
 ASE_JSON_DESC=JSON parsing and serialization helpers
 ASE_JSON_LAYER=0
-ASE_JSON_STATUS=poc
+ASE_JSON_STATUS=init
 ASE_JSON_CREATED=2025-12-29
-ASE_JSON_UPDATED=2026-09-08
+ASE_JSON_UPDATED=2026-11-16
